@@ -66,3 +66,11 @@ input {
   align-items: center;
   justify-content: start;
 }
+
+.form>* {
+  margin: 2px;
+  width: 100%;
+  min-height: 30px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
