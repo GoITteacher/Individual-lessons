@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/GoITteacher/Individual-lessons/issues"
   },
-  "homepage": "https://github.com/GoITteacher/Individual-lessons#readme"
+  "homepage": "https://github.com/GoITteacher/Individual-lessons#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  },
+  "type": "module"
 }
