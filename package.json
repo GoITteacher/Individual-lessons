@@ -1,0 +1,19 @@
+{
+  "name": "individual-lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "push": "git add . && git commit -m 'update' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoITteacher/Individual-lessons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoITteacher/Individual-lessons/issues"
+  },
+  "homepage": "https://github.com/GoITteacher/Individual-lessons#readme"
+}
