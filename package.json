@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "server": "json-server --watch db.json",
     "push": "git add . && git commit -m 'update' && git push"
   },
   "repository": {
