@@ -3,6 +3,9 @@
     margin: 10px;
     border-radius: 10px;
     border: 1px solid black;
+    width: fit-content;
+    min-height: 50px;
+    min-width: 100px;
 }
 
 .flex{

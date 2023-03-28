@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "name": "Terri Waters",
+      "name": "Tina Larkin",
       "albums": [
         1,
         2,
@@ -9,10 +9,14 @@
         4,
         5
       ],
-      "id": 1
+      "id": 1,
+      "phone": "953-808-4987",
+      "email": "Dixie33@hotmail.com",
+      "job": "Senior Solutions Facilitator",
+      "city": "East Candelarioville"
     },
     {
-      "name": "Steven Terry",
+      "name": "Wanda Leannon",
       "albums": [
         6,
         7,
@@ -20,10 +24,14 @@
         9,
         10
       ],
-      "id": 2
+      "id": 2,
+      "phone": "718-936-5505",
+      "email": "Hyman_Thompson@hotmail.com",
+      "job": "Future Program Administrator",
+      "city": "Bertside"
     },
     {
-      "name": "Mrs. Kurt Ortiz",
+      "name": "Ella Kihn IV",
       "albums": [
         11,
         12,
@@ -31,10 +39,14 @@
         14,
         15
       ],
-      "id": 3
+      "id": 3,
+      "phone": "370-783-6455",
+      "email": "Nettie_Kassulke26@hotmail.com",
+      "job": "International Solutions Engineer",
+      "city": "Joaniefurt"
     },
     {
-      "name": "Terrell Buckridge",
+      "name": "Dolores Denesik",
       "albums": [
         16,
         17,
@@ -42,10 +54,14 @@
         19,
         20
       ],
-      "id": 4
+      "id": 4,
+      "phone": "228-906-6252",
+      "email": "Berenice80@hotmail.com",
+      "job": "Senior Research Architect",
+      "city": "South Delilahport"
     },
     {
-      "name": "Rickey Kovacek",
+      "name": "Bryant Leuschke",
       "albums": [
         1,
         2,
@@ -53,10 +69,14 @@
         4,
         5
       ],
-      "id": 5
+      "id": 5,
+      "phone": "720-841-6550",
+      "email": "Virgie.Hauck31@hotmail.com",
+      "job": "National Security Agent",
+      "city": "Rathmouth"
     },
     {
-      "name": "Taylor Schimmel",
+      "name": "Sandra Greenfelder",
       "albums": [
         6,
         7,
@@ -64,10 +84,14 @@
         9,
         10
       ],
-      "id": 6
+      "id": 6,
+      "phone": "673-949-8441",
+      "email": "Aileen.Ryan@yahoo.com",
+      "job": "Global Tactics Agent",
+      "city": "Emmerichchester"
     },
     {
-      "name": "Alexandra Gaylord V",
+      "name": "Preston Bode",
       "albums": [
         11,
         12,
@@ -75,7 +99,11 @@
         14,
         15
       ],
-      "id": 7
+      "id": 7,
+      "phone": "842-556-2534",
+      "email": "Humberto.DuBuque81@hotmail.com",
+      "job": "Global Usability Director",
+      "city": "Nataliastad"
     }
   ],
   "albums": [
