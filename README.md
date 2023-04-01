@@ -1,3 +1,160 @@
+# TEST
+
+## TASK
+
+```js
+console.log(1);
+setTimeout(() => console.log(2), 1000);
+Promise.resolve().then(() => console.log(3));
+setTimeout(() => console.log(4), 500);
+Promise.resolve().then(() => setTimeout(() => console.log(5), 250));
+console.log(6);
+```
+
+## TASK
+
+```js
+const p1 = Promise.resolve(1);
+const p2 = Promise.resolve(2);
+
+setTimeout(() => p1.then(() => console.log(1)), 1000);
+p1.then(() => console.log(2));
+setTimeout(() => p2.then(() => console.log(3)), 500);
+p2.then(() => console.log(4));
+Promise.all([p1, p2]).then(() => console.log(5));
+```
+
+## TASK
+
+```js
+async function asyncFn() {
+  console.log(1);
+  await Promise.resolve();
+  console.log(2);
+  setTimeout(() => console.log(3), 0);
+  console.log(4);
+}
+
+console.log(5);
+asyncFn();
+console.log(6);
+```
+
+## TASK
+
+```js
+console.log(1);
+setTimeout(() => console.log(2));
+Promise.resolve().then(() => console.log(3));
+setTimeout(() => console.log(4));
+Promise.resolve().then(() => setTimeout(() => console.log(5)));
+console.log(6);
+```
+
+## TASK
+
+```js
+console.log(1);
+Promise.resolve().then(() => console.log(2));
+setTimeout(() => console.log(3));
+Promise.resolve().then(() => setTimeout(() => console.log(4)));
+setTimeout(() => console.log(5));
+console.log(6);
+```
+
+## TASK
+
+```js
+console.log(1);
+setTimeout(() => console.log(2));
+Promise.resolve().then(() => console.log(3));
+setTimeout(() => Promise.resolve().then(() => console.log(4)));
+Promise.resolve().then(() => setTimeout(() => console.log(5)));
+console.log(6);
+```
+
+## TASK
+
+```js
+console.log(1);
+setTimeout(() => console.log(2));
+Promise.resolve().then(() => console.log(3));
+setTimeout(() => Promise.resolve().then(() => console.log(4)));
+Promise.resolve().then(() => setTimeout(() => console.log(5)));
+setTimeout(() => console.log(6));
+```
+
+# Задачі
+
+## Задача №1
+
+```
+Написати функцію, яка приймає на вхід масив промісів і повертає проміс, який виконується тоді, коли всі проміси з масиву виконались успішно, і повертає масив результатів кожного промісу в тому ж порядку, в якому вони були передані на вхід. Потім вивести результат цього промісу.
+```
+
+## Задача №2
+
+```
+Напишіть функцію, яка приймає масив об'єктів та повертає проміс з масивом об'єктів, у яких ключ value буде збільшений на 10.
+```
+
+## Задача №3 (НА рекурсію)
+
+```
+Зробити аналог методу FlatMap але щоб він розгладив усі рівні вкладеності.
+```
+
+## Задача №3 (НА рекурсію)
+
+```
+Напишіть функцію, яка перевіряє, чи є заданий рядок паліндромом за допомогою рекурсії. Паліндром - це рядок, який можна прочитати зліва направо та справа наліво однаково. Наприклад, "level" - паліндром.
+```
+
+## Задача №4
+
+```js
+const tree = {
+  value: "A",
+  left: {
+    value: "B",
+    left: {
+      value: "D",
+      left: null,
+      right: null,
+    },
+    right: {
+      value: "E",
+      left: null,
+      right: null,
+    },
+  },
+  right: {
+    value: "C",
+    left: {
+      value: "F",
+      left: null,
+      right: null,
+    },
+    right: {
+      value: "G",
+      left: null,
+      right: null,
+    },
+  },
+};
+
+// Необхідно написати рекурсію для обходу усіх вузлів дерева.
+// Вузли потрібно просто виводити у консоль
+/* 
+     A
+   /   \
+  B     C
+ / \   / \
+D   E F   G
+
+*/
+```
+
 # [TASKS](https://habr.com/ru/post/681882/)
 
 ## Task 1
