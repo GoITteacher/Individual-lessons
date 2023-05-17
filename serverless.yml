@@ -1,0 +1,30 @@
+service: individual-lessons
+
+frameworkVersion: "3"
+
+plugins:
+  - serverless-bundle # Package our functions with Webpack
+  - serverless-offline
+  - serverless-dotenv-plugin
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: us-east-2
+  profile: serverlessUser
+
+functions:
+  getUsers:
+    handler: src/controllers/users.getUsers
+    events:
+      - http:
+          path: users
+          method: get
+          cors: true
+  updateUser:
+    handler: src/controllers/users.updateUser
+    events:
+      - http:
+          path: users
+          method: put
+          cors: true

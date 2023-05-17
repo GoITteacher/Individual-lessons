@@ -1,3 +1,6 @@
+# package directories
 node_modules
-dist
-.parcel-cache
+jspm_packages
+
+# Serverless directories
+.serverless
