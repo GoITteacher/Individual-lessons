@@ -2,9 +2,8 @@
   "name": "individual-lessons",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "npx parcel src/*.html",
+    "start": "",
     "push": "git add . && git commit -m 'update' && git push"
   },
   "repository": {
@@ -17,6 +16,5 @@
     "url": "https://github.com/GoITteacher/Individual-lessons/issues"
   },
   "homepage": "https://github.com/GoITteacher/Individual-lessons#readme",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
