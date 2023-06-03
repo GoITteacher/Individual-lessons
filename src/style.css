@@ -129,3 +129,11 @@ li{
     margin-top:10px;
     margin-bottom:10px;
 }
+
+.deposit{
+    border:2px solid rgb(68, 163, 68);
+}
+
+.withdraw{
+    border:2px solid rgb(163, 68, 68);
+}
