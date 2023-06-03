@@ -7,7 +7,7 @@ export class Bank {
     this.balance += +value;
 
     const transaction = {
-      type: 'deposit',
+      type: "deposit",
       value: value,
       balance: this.balance,
     };
@@ -18,7 +18,7 @@ export class Bank {
     this.balance -= +value;
 
     const transaction = {
-      type: 'withdraw',
+      type: "withdraw",
       value: value,
       balance: this.balance,
     };
