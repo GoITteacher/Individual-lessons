@@ -130,10 +130,10 @@ li{
     margin-bottom:10px;
 }
 
-.deposit{
+.green{
     border:2px solid rgb(68, 163, 68);
 }
 
-.withdraw{
+.red{
     border:2px solid rgb(163, 68, 68);
 }
