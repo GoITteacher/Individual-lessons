@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "03.06",
   "scripts": {
+    "start": "npx parcel src/*.html",
     "push": "git add . ; git commit -m 'update'; git push;"
   },
   "repository": {
