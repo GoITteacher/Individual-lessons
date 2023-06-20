@@ -3,7 +3,7 @@ body {
   height: 94vh;
   flex-direction: column;
   justify-content: start;
-  align-items: flex-start;
+  align-items: center;
   margin: 0;
   padding: 20px;
   display: flex;
@@ -86,6 +86,17 @@ li {
   overflow-x: hidden;
 }
 
+.search-form {
+  flex-direction: column;
+  display: flex;
+}
+
+.box {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
 .list {
   height: 90%;
   justify-content: start;
@@ -130,6 +141,16 @@ li {
 
 .red {
   border: 2px solid #a34444;
+}
+
+.df {
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+
+.flex-vertical {
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=index.2cdaf7bc.css.map */
