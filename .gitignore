@@ -1,2 +1,5 @@
 node_modules
 .serverless
+.parcel-cache
+dist
+.cache
