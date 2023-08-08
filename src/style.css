@@ -17,21 +17,10 @@ img{
     margin: 20px;
 }
 
-table, th, td {
-    border: 1px solid;
-}
-
 .active{
     border:5px solid tomato;
 }
 
-.image-list{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
 
 * {
     box-sizing: border-box;
@@ -65,39 +54,36 @@ table, th, td {
     overflow-y: auto;
 }
 
-.user-item{
-    background-color: tomato;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 15px;
-    width: 300px;
-    overflow-y: hidden;
-    cursor: pointer;
-}
+
 
 
 li{
     list-style-type: none;
 }
 
-.album{
-    padding: 10px;
-    background-color: rgb(224, 224, 224);
-    border-radius: 15px;
-    max-width: 300px;
-    overflow-x:hidden;
-    margin: 20px;
-}
 
 
 
 
-.list{
+.pokemon-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     height: 90%;
     overflow-y: auto;
     justify-content: start;
 }
 
+.pokemon-item{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    width: 300px;
+    overflow-y: hidden;
+    cursor: pointer;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
 ::-webkit-scrollbar {
     width: 7px;
     background-color: #0000;
@@ -114,18 +100,7 @@ li{
 
 
 
-.blur-up {
-    -webkit-filter: blur(5px);
-    filter: blur(5px);
-    transition: filter 400ms, -webkit-filter 400ms;
-}
 
-.blur-up.lazyloaded {
-    -webkit-filter: blur(0);
-    filter: blur(0);
-}
 
-.form-control{
-    margin-top:10px;
-    margin-bottom:10px;
-}
+
+
