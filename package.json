@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GoITteacher/Individual-lessons/issues"
   },
-  "homepage": "https://github.com/GoITteacher/Individual-lessons#readme"
+  "homepage": "https://github.com/GoITteacher/Individual-lessons#readme",
+  "dependencies": {
+    "parcel": "^2.9.3"
+  }
 }
