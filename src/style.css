@@ -136,3 +136,7 @@ li {
 .transaction {
   width: 200px;
 }
+
+input:focus {
+  outline: none;
+}
