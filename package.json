@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "03.06",
   "scripts": {
-    "start": "npx parcel src/index.html",
-    "push": "git add . ; git commit -m '123'; git push;"
+    "start": "echo start-start",
+    "test": "echo test-test",
+    "hello": "echo 123",
+    "create-file": "touch 1.txt",
+    "create-direction": "mkdir dist"
   },
   "repository": {
     "type": "git",
@@ -16,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/GoITteacher/Individual-lessons/issues"
   },
-  "homepage": "https://github.com/GoITteacher/Individual-lessons#readme",
-  "dependencies": {
-    "parcel": "^2.9.3"
-  }
+  "homepage": "https://github.com/GoITteacher/Individual-lessons#readme"
 }
