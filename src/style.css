@@ -51,6 +51,7 @@ td {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 5px;
 }
 
 .fb-v {
@@ -90,7 +91,9 @@ li {
 }
 
 .list {
-  height: 90%;
+  min-height: 80vh;
+  min-width: 20vw;
+  height: 80vh;
   overflow-y: auto;
   justify-content: start;
 }
@@ -125,18 +128,28 @@ li {
   margin-bottom: 10px;
 }
 
-.deposit {
+input:focus {
+  outline: none;
+}
+
+.task {
+  width: 400px;
+  border: 1px solid rgb(49, 49, 49);
+}
+
+.task-desc {
+  height: 100px;
+  overflow-y: auto;
+}
+
+.low {
   border: 2px solid rgb(68, 163, 68);
 }
 
-.withdraw {
+.middle {
+  border: 2px solid rgb(172, 168, 68);
+}
+
+.hight {
   border: 2px solid rgb(163, 68, 68);
-}
-
-.transaction {
-  width: 200px;
-}
-
-input:focus {
-  outline: none;
 }

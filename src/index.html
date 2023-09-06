@@ -16,35 +16,45 @@
   </head>
   <body>
     <div class="js-form-container fb fb-h">
-      <form class="form box js-form1" data-index="1">
-        <input class="js-input form-control" name="input-value" />
-        <div>
-          <button class="js-deposit form-control" name="deposit-btn">
-            Deposit
-          </button>
-          <button class="js-withdraw form-control" name="withdraw-btn">
-            Withdraw
-          </button>
-        </div>
-        <div>
-          <input type="radio" name="filter" value="all" checked />All -
-          <input type="radio" name="filter" value="all" />Deposit -
-          <input type="radio" name="filter" value="all" />Withdraw
+      <form class="form box js-form">
+        <input
+          class="js-input form-control"
+          name="input-value"
+          placeholder="Title"
+        />
+        <input class="js-input form-control" name="image" placeholder="Image" />
+        <textarea
+          class="form-control"
+          name="description"
+          rows="10"
+          placeholder="Description"
+        ></textarea>
+        <div class="fb">
+          <input type="radio" name="priority" value="hight" checked />Hight
+          <input type="radio" name="priority" value="middle" />Middle
+          <input type="radio" name="priority" value="low" />Low
         </div>
 
-        <div class="box" style="width: fit-content">
-          <div>Balance: <span class="js-balance" name="balance">0</span></div>
-          <div>
-            History:
-            <ul class="js-history history" name="history">
-              <li class="box transaction deposit">Amount - 500</li>
-              <li class="box transaction deposit">Amount - 500</li>
-              <li class="box transaction withdraw">Amount - 500</li>
-              <li class="box transaction withdraw">Amount - 300</li>
-            </ul>
-          </div>
-        </div>
+        <button class="form-control" type="submit">Create Task</button>
       </form>
+
+      <div class="box" style="width: fit-content">
+        <ul class="js-tasks list">
+          <li class="box task hight">
+            <h3>Title</h3>
+            <div class="task-desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                et accusamus reiciendis, dolorem sint doloremque ad deleniti
+                nulla aliquid maiores explicabo perspiciatis officiis optio quo
+                cumque, eligendi eum ea aliquam?
+              </p>
+            </div>
+
+            <button class="form-control">DELETE</button>
+          </li>
+        </ul>
+      </div>
     </div>
     <script type="module" src="./index.js"></script>
   </body>
