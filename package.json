@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "03.06",
   "scripts": {
-    "start": "echo 'start-start'",
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html",
     "test": "echo test-test",
     "hello": "echo 123",
     "create-file": "touch 1.txt",
@@ -27,6 +28,7 @@
   "dependencies": {
     "lazysizes": "^5.3.2",
     "lodash": "^4.17.21",
+    "parcel": "^2.9.3",
     "simplelightbox": "^2.14.2"
   }
 }
