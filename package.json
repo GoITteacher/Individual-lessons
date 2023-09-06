@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "03.06",
   "scripts": {
-    "start": "echo start-start",
+    "start": "echo 'start-start'",
     "test": "echo test-test",
     "hello": "echo 123",
     "create-file": "touch 1.txt",
     "create-direction": "mkdir dist",
-    "push": "git add .; git commit -m 'update'; git push"
+    "push": "git add .; git commit -m 'update'; git push",
+    "preupdate": "echo before update",
+    "update": "echo update",
+    "postupdate": "echo after update"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/GoITteacher/Individual-lessons/issues"
   },
-  "homepage": "https://github.com/GoITteacher/Individual-lessons#readme"
+  "homepage": "https://github.com/GoITteacher/Individual-lessons#readme",
+  "dependencies": {
+    "lazysizes": "^5.3.2",
+    "lodash": "^4.17.21",
+    "simplelightbox": "^2.14.2"
+  }
 }
