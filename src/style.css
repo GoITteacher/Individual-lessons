@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
+  width: 200px;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px;
+}
+
+.result {
+  height: 100px;
+  overflow-y: auto;
+}
