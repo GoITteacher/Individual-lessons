@@ -99,7 +99,7 @@ console.log(min); // 1
 - [Kata #8](https://www.codewars.com/kata/5a905c2157c562994900009d)
 - [Kata #9](https://www.codewars.com/kata/57d814e4950d8489720008db)
 - [Kata #10](https://www.codewars.com/kata/5a2be17aee1aaefe2a000151)
-- [Kata #11] (https://www.codewars.com/kata/57eba158e8ca2c8aba0002a0)
+- [Kata #11](https://www.codewars.com/kata/57eba158e8ca2c8aba0002a0)
 - [Kata #12]()
 - [Kata #13]()
 - [Kata #14]()
