@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "03.06",
   "scripts": {
-    "start": "npx parcel src/*.html",
+    "start": "npx parcel src/*.html --port 1255",
     "push": "git add . ; git commit -m 'update'; git push;"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GoITteacher/Individual-lessons/issues"
   },
-  "homepage": "https://github.com/GoITteacher/Individual-lessons#readme"
+  "homepage": "https://github.com/GoITteacher/Individual-lessons#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0"
+  }
 }

@@ -1,6 +1,8 @@
-/* const arr1 = [1, 2, 3];
-const arr2 = [4, 5, 6];
+const TelegramBot = require("node-telegram-bot-api");
 
-const result = ["HELLO", ...arr2, "TEST", ...arr1, ...arr1];
+const bot = new TelegramBot(token, { polling: true });
+bot.on("message", (msg) => {
+  console.log(msg);
+});
 
-Math.max(...arr1, ...arr2); */
+bot.on("video", () => {});
